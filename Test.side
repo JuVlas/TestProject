@@ -1,0 +1,126 @@
+{
+  "id": "e49de2de-abeb-49d5-8ef0-280358b97662",
+  "version": "2.0",
+  "name": "Test",
+  "url": "https://sbleskom.ru",
+  "tests": [{
+    "id": "4b4d9be2-b3f0-4446-8e6a-e64d9f0275bd",
+    "name": "testcase7_8",
+    "commands": [{
+      "id": "d0861222-9593-4fce-aafa-81e5fa581ece",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f62c5d49-9816-43c6-bc73-f793140ca810",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1200x775",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "412d3b39-e0c1-4a3d-9fde-040adfc998dc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.burger",
+      "targets": [
+        ["css=.burger", "css:finder"],
+        ["xpath=//a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4e8549b6-824e-4eb3-8f41-ad4f1913985a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.mobile-menu-close > #Capa_1",
+      "targets": [
+        ["css=.mobile-menu-close > #Capa_1", "css:finder"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "99e96eae-4a04-437d-ba76-2be59897deb1",
+    "name": "testcase9",
+    "commands": [{
+      "id": "0279bbc6-d956-4c11-a244-3b3fc4a988be",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "aef2ff60-927e-4990-9a45-62be0fe088de",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.show",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "8c3911b5-90e3-4cff-b0d2-57d2f5bc017e",
+    "name": "testcase6",
+    "commands": [{
+      "id": "325ef4c1-c090-4bc9-815d-f05af591a754",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "df8419b7-2bef-4318-994d-df47660e40a5",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.burger",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "7502abc5-ad3a-48bd-b4a8-d4d7da335e5b",
+    "name": "testcase10",
+    "commands": [{
+      "id": "8494c621-ae4e-4a13-8c93-c0ab25d8e1be",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8789bc48-7fa0-4431-8aa5-87af3e727772",
+      "comment": "",
+      "command": "click",
+      "target": "css=.show",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "78118648-fc6e-4d1f-95a2-1d71cb92e8fb",
+    "name": "testcase1",
+    "commands": [{
+      "id": "f201f422-452f-4d82-854e-ed4636833fa9",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ef6efa43-9602-4357-be15-2aeee235a630",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.dsktp",
+      "targets": [],
+      "value": "30000"
+    }]
+  }],
+  "suites": [{
+    "id": "557c130d-376b-4ff0-8b6b-3709bb59ded8",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["4b4d9be2-b3f0-4446-8e6a-e64d9f0275bd"]
+  }],
+  "urls": ["https://sbleskom.ru/"],
+  "plugins": []
+}
