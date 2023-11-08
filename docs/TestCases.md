@@ -12,6 +12,8 @@ base_url = https://sbleskom.ru/
     </tr>
 </table>
 
+___
+___
 
 #### TestCase 2. Закрытие модального окна
 <table>
@@ -29,6 +31,9 @@ base_url = https://sbleskom.ru/
     </tr>
 </table>
 
+___
+___
+
 #### TestCase 3. Появление элемента popup при переходе на сайт
 <table>
     <tr>
@@ -40,6 +45,9 @@ base_url = https://sbleskom.ru/
         <td>1. Осуществляется переход на главную страницу сайта и появляется элемент popup в нижнем правом углу</td>
     </tr>
 </table>
+
+___
+___
 
 #### TestCase 4. Сворачивание элемента popup
 <table>
@@ -69,6 +77,9 @@ base_url = https://sbleskom.ru/
     </tr>
 </table>
 
+___
+___
+
 #### TestCase 6. Наличие кнопки меню в хеддере
 ###### Element: header
 ###### Subelement: кнопка меню
@@ -82,4 +93,7 @@ base_url = https://sbleskom.ru/
         <td>1. Осуществлется переход на главную старницу сайта с кнопкой меня в левой части хеддера</td>
     </tr>
 </table>
+
+___
+___
 
